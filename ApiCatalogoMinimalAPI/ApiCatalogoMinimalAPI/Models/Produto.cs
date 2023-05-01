@@ -1,4 +1,6 @@
-﻿namespace ApiCatalogoMinimalAPI.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace ApiCatalogoMinimalAPI.Models;
 
 public class Produto
 {
@@ -10,5 +12,7 @@ public class Produto
     public DateTime DataCompra { get; set; }
     public int Estoque { get; set; }
     public int CategoriaId { get; set; }
+
+    [JsonIgnore]
     public Categoria? Categoria { get; set; }
 }
