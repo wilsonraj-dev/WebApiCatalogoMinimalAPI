@@ -14,11 +14,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Esse projeto é uma melhoria da API que fiz (https://github.com/wilsonraj-dev/ApiTarefas/), lá criei um projeto básico para gerenciar
-tarefas diárias usando um banco em memória mesmo. Nessa API de catalogo também usei a abordagem da Minimal API juntamento do banco de dados
+tarefas diárias usando um banco em memória mesmo. Nessa API de catalogo também usei a abordagem da Minimal API juntamente do banco de dados
 MySQL na versão 8.0.
-Optei por uma arquiterura simples separando as classes de serviço e dos endpoints em pastas separadas para serem chamadas na classe Program,
-também usei a autenticação JWT para melhorar a segurança da API e afins de conhecimento também. Não cheguei a implementar a uma abordagem com
-o ASP .NET Core Identity para controlar as prmissões, visto que o intuito desse projeto era simples e também conhecer melhor os
+Optei por uma arquitetura simples separando as classes de serviço e dos endpoints em pastas separadas para serem chamadas na classe Program,
+também usei a autenticação JWT para melhorar a segurança da API e também afins de conhecimento. Não cheguei a implementar a uma abordagem com
+o ASP .NET Core Identity para controlar as permissões de cada usuário registrado, visto que o intuito desse projeto era simples e também conhecer melhor os
 recursos e funcionalidades de uma Minimal API.
 
 ## 📧 Contatos
